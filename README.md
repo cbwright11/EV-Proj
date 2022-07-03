@@ -1,3 +1,4 @@
-# EV-Proj
+# Predicting Electric Vehicle (EV) Adoption at the Census Block Group Level
 
-Predicting EV Adoption at the Census Block Group Level
+This project was a collaboration between Cameron Wright, Ally Novales, Payton McSweeney, and Kunal Malhotra. We use California DMV data on EV adoption measured at the census block group level along with data from the Census Bureau to train a machine learning algorithm. This algorithm uses the features {income, educational attainment, race, and commute time} for individuals in a given geographical region to predict the target {EV adoption} (number of electric vehicles divided by total number of passenger vehicles) of that same region. Most states offer data on our features at the census block group level, but do not offer data on EV adoption at a granularity this fine. However, California does offer EV adoption data at the census block group level. Therefore, our model is built on California data and can be used to predict EV adoption at the census block group level for most states (those that offer data on our features at this level). 
+
